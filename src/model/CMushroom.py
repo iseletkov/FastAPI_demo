@@ -1,6 +1,10 @@
 from pydantic import BaseModel
 
-
+# *******************************************************************************************************
+# * Класс для описания информации об одном грибе.                                                       *
+# * @link Описание данных https://www.kaggle.com/datasets/uciml/mushroom-classification                 *
+# * @author Селетков И.П. 2023 0219.                                                                    *
+# *******************************************************************************************************
 class CMushroom(BaseModel):
     cap_shape: str | None = None
     cap_surface: str | None = None
