@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import CRouterModels
+from .routers import CRouterModels
 
 # *******************************************************************************************************
 # * Основной файл приложения.                                                                           *

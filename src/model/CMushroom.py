@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+
 # *******************************************************************************************************
 # * Класс для описания информации об одном грибе.                                                       *
 # * @link Описание данных https://www.kaggle.com/datasets/uciml/mushroom-classification                 *
